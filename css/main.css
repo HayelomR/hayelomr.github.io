@@ -49,6 +49,42 @@ html, body {
 	padding: 0;
 }
 
+/*.javascript{
+	font-size: 100px;
+	margin-right: 60%;
+	margin-top: -120px;
+
+}*/
+
+/*node {
+	margin-left: 40%;
+	margin-top: 300px;*/
+	/*margin-top: -100px;*/
+/*}
+.mysql {
+	 font-size: 6em;
+    justify-content: center;
+    margin-bottom: 13px;
+    margin-left: 400px;*/
+   
+
+/*}
+.html {
+    font-size: 6em;
+    justify-content: center;
+    margin-bottom: 13px;
+    margin-top: -12px;
+}*/
+/**/
+/*.css {
+	float: left;
+    font-size: 60px;
+    justify-content: center;
+  	margin-left: 200px;
+    margin-bottom: 12px;*/
+/*    margin-left: -170%;*/
+    /*margin-top: -19px;
+}*/
 ::selection {
 	background-color: #35405f;
 	color: #fff;
@@ -445,6 +481,7 @@ body {
     padding: 60px 0px 80px 0px;
 }
 ul.numbersList {
+	float: left;
     margin: 0px auto;
     padding: 0px;
     overflow: hidden;
@@ -499,13 +536,26 @@ ul.numbersList span{
 }
 
 #testimonials .testimonial {
-	padding: 25px;
-	cursor: -webkit-grab;
+	float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+/*  background: #fff;*/
+/*  border: 1px solid #ddd;*/
+	/*padding: 25px;
+	cursor: -webkit-grab;*/
 }
 
 #testimonials .testimonial > img {
-	border-radius: 100%;
-	margin-bottom: 15px;
+	float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+	  /* width: 300px;
+	border-radius: 10%;
+	margin-bottom: 15px;*/
 }
 
 /* ///////////////////////////////////////////////////////////////////// 
