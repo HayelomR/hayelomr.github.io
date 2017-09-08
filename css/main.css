@@ -9,7 +9,7 @@
 }
 
 h1,  h3, h4, h5,h6 {
-	font-family: 'Niconne', cursive; 
+	font-family: 'Niconne', cursive,sans-serif;; 
 	margin-top: 0;
 }
 
@@ -57,7 +57,7 @@ body {
 
 #site-header h1 {
 	margin: 0;
-	font-family: 'Niconne', cursive; 
+	font-family: 'Niconne', cursive,sans-serif;; 
 	margin-top: 11px;
 	font-size: 26px;
 	font-weight: 300;
@@ -96,7 +96,7 @@ body {
 .site-nav ul li a {
 	color: #fff;
 	font-size: 15px;
-	font-family: 'Niconne', cursive; 
+	font-family: 'Niconne', cursive,sans-serif;; 
 	position: relative;
 	transition: 0.5s background linear;
 }
@@ -746,11 +746,11 @@ i.fa.fa-envelope-o {
 		@media only screen and (max-width : 375px) {
 
 			.tagline {
-				font-family: 'Niconne', cursive; 
+				font-family: 'Niconne', cursive,sans-serif;; 
 			}
 			.pro-name {
 				font-size: 40px;
-				font-family: 'Niconne', cursive; 
+				font-family: 'Niconne', cursive,sans-serif;; 
 			}
 			#testimonials .testimonial > img {
 
@@ -758,7 +758,7 @@ i.fa.fa-envelope-o {
 			}
 			#testimonials .block-heading h1 {
 
-				font-family: 'Niconne', cursive; 
+				font-family: 'Niconne', cursive,sans-serif;; 
 				font-size: 50px;
 
 			}
@@ -767,7 +767,7 @@ i.fa.fa-envelope-o {
 				color: rgb(0, 129, 129);
 				font-weight: 400;
 				font-size: 25;
-				font-family: 'Niconne', cursive; 
+				font-family: 'Niconne', cursive,sans-serif;; 
 			}
 			ul.numbersList {
 				background-color: black;
