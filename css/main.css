@@ -1,7 +1,4 @@
-
-h2 {
-	margin-top: 10px;
-}
+/**/
 ::selection {
 	background-color: #35405f;
 	color: #fff;
@@ -12,6 +9,7 @@ h2 {
 }
 
 h1,  h3, h4, h5,h6 {
+	font-family: 'Niconne', cursive; 
 	margin-top: 0;
 }
 
@@ -59,7 +57,7 @@ body {
 
 #site-header h1 {
 	margin: 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Niconne', cursive; 
 	margin-top: 11px;
 	font-size: 26px;
 	font-weight: 300;
@@ -98,7 +96,7 @@ body {
 .site-nav ul li a {
 	color: #fff;
 	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Niconne', cursive; 
 	position: relative;
 	transition: 0.5s background linear;
 }
@@ -152,6 +150,7 @@ body {
 
 .pro-name {
 	font-size: 100px;
+
 	margin-top: 100px;
 	margin-bottom: 15px;  
 	/* font-family: 'Lato', sans-serif; */
@@ -228,7 +227,7 @@ body {
 	font-weight: 400;
 	
 	font-size: 55px;
-	font-family: 'Milonga', cursive;
+	font-family: 'Niconne', cursive; 
 }
 
 .portfolio-item img {
@@ -436,7 +435,7 @@ ul.numbersList span{
 #testimonials .block-heading h1
 {
 	color: rgb(0, 129, 129);
-	font-family: 'Milonga', cursive;
+	font-family: 'Niconne', cursive; 
 	font-weight: 400;
 	font-size: 55px;
 }
@@ -722,21 +721,75 @@ i.fa.fa-envelope-o {
 	.contact-info {
 		padding: 30px 10px;
 	}
-}
-
-@media only screen and (max-width : 640px) {
-	.parallax{
-		background: url(../video/video.jpg) no-repeat center center fixed #444;
-		background-attachment: fixed !important;
-		-webkit-background-size: 100%;
-		-moz-background-size: 100%;
-		-o-background-size: 100%;
-		background-size: 100%;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+	@media (max-width: 414px) {
+		.pro-name {
+			font-size: 50px;
+		}
+		ul.numbersList {
+			background-color: black;
+		}
 	}
-}
+
+	@media only screen and (max-width : 640px) {
+		.parallax{
+			background: url(../video/video.jpg) no-repeat center center fixed #444;
+			background-attachment: fixed !important;
+			-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+			-o-background-size: 100%;
+			background-size: 100%;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		@media only screen and (max-width : 375px) {
+
+			.tagline {
+				font-family: 'Niconne', cursive; 
+			}
+			.pro-name {
+				font-size: 40px;
+				font-family: 'Niconne', cursive; 
+			}
+			#testimonials .testimonial > img {
+
+				width: 100px;
+			}
+			#testimonials .block-heading h1 {
+
+				font-family: 'Niconne', cursive; 
+				font-size: 50px;
+
+			}
+
+			#portfolio .block-heading h1 {
+				color: rgb(0, 129, 129);
+				font-weight: 400;
+				font-size: 25;
+				font-family: 'Niconne', cursive; 
+			}
+			ul.numbersList {
+				background-color: black;
+				float: left;
+				margin: 0px auto;
+				padding: 0px;
+				overflow: hidden;
+				list-style: none;
+				text-align: center;
+			}
+			.parallax{
+				background: url(../video/video.jpg) no-repeat center center fixed #444;
+				background-attachment: fixed !important;
+				-webkit-background-size: 100%;
+				-moz-background-size: 100%;
+				-o-background-size: 100%;
+				background-size: 100%;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
+		}
 
 
