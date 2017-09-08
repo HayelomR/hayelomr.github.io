@@ -167,6 +167,7 @@ body {
 }
 
 .tagline {
+	margin-top: 50px;
 	font-size: 57px;
 	margin-bottom: 60px;
 	color: #fff;
