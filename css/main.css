@@ -1,90 +1,7 @@
-/*
-Theme Name: Developer
-Theme URI: http://themewagon.com/demo/Developer/
-Author: ThemeWagon
-Author URI: http://themewagon.com/
-Description: Slick One page HTML 5 template powered by Bootstrap 3.
-Version: 1.14.11
-License: GNU General Public License v3
-License URI: http://www.gnu.org/licenses/gpl-3.0.txt
-Tags: blue, white, one page, parallax, responsive-layout, full-width-template
-Text Domain: developer
-*/
 
-/**
-* Table of Contents:
-*
-* 01.0 - Global
-* 02.0 - Header
-* 03.0 - Navigation
-* 04.0 - Blur styles
-* 05.0 - Home
-* 06.0 - Latest Works
-* 	 06.1 - isotope (http://isotope.metafizzy.co/)
-*	 06.2 - Image Hover Effect
-* 07.0 - More About Me
-* 	 07.1 - Animated Number
-* 08.0 - Testimonials
-* 	 08.1 - Owl Carousel (http://owlgraphic.com/owlcarousel/)
-* 09.0 - Contact
-*	 09.1 - Social Icon
-* 10.0 - Footer
-* 11.0 - Responsive styles
-* -----------------------------------------------------------------------------
-*/
-
-
-/* ///////////////////////////////////////////////////////////////////// 
-//  01 - Global 
-/////////////////////////////////////////////////////////////////////*/
-@font-face {
-	font-family: 'Pacifico';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Pacifico Regular'), local('Pacifico-Regular'), url("../fonts/pacifico.woff") format('woff');
+h2 {
+	    margin-top: 10px;
 }
-
-html, body {
-	margin: 0; 
-	padding: 0;
-}
-
-/*.javascript{
-	font-size: 100px;
-	margin-right: 60%;
-	margin-top: -120px;
-
-}*/
-
-/*node {
-	margin-left: 40%;
-	margin-top: 300px;*/
-	/*margin-top: -100px;*/
-/*}
-.mysql {
-	 font-size: 6em;
-    justify-content: center;
-    margin-bottom: 13px;
-    margin-left: 400px;*/
-   
-
-/*}
-.html {
-    font-size: 6em;
-    justify-content: center;
-    margin-bottom: 13px;
-    margin-top: -12px;
-}*/
-/**/
-/*.css {
-	float: left;
-    font-size: 60px;
-    justify-content: center;
-  	margin-left: 200px;
-    margin-bottom: 12px;*/
-/*    margin-left: -170%;*/
-    /*margin-top: -19px;
-}*/
 ::selection {
 	background-color: #35405f;
 	color: #fff;
@@ -94,7 +11,7 @@ html, body {
 	outline: none;
 }
 
-h1, h2, h3, h4, h5,h6 {
+h1, h3, h4, h5,h6 {
 	margin-top: 0;
 }
 
@@ -430,30 +347,7 @@ body {
 	font-size: 22px;
 }
 
-/* ///////////////////////////////////////////////////////////////////// 
-//  07 - More About Me 
-/////////////////////////////////////////////////////////////////////*/
 
-/* #services {
-	background: url(../img/bg/bg-2.jpg) no-repeat center center fixed;
-	background-size: cover;
-	color: #fff;
-}
-
-.pro-stat {
-	font-size: 20px;
-	text-transform: uppercase;
-	text-align: center;
-	font-style: italic;
-}
-
-.proj-name {
-	font-family: Pacifico;
-	font-size: 150px;
-	text-align: center;
-	line-height: 90%;
-	margin-bottom: 80px;
-} */
 #services .block-heading h1 {
     color: #fff;
 	
@@ -478,7 +372,7 @@ body {
 	background: url(../img/bg/number1.gif) repeat center center fixed;
 }
 #numbers .overlay{
-    padding: 60px 0px 80px 0px;
+       padding-bottom: 15%;
 }
 ul.numbersList {
 	float: left;
@@ -489,8 +383,9 @@ ul.numbersList {
     text-align: center;
 }
 ul.numbersList li{
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
-    margin-right: 190px;
+	margin-left:10px;
+    border-right:  rgba(255, 255, 255, 0.5);
+    margin-right: 120px;
 }
 ul.numbersList li:last-child{
     border: none;
@@ -500,8 +395,8 @@ ul.numbersList h4{
     margin-bottom: 58px;
 }
 ul.numbersList span{
-    font-size: 62px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 70;
 }
 
 .numbers-title {
@@ -525,6 +420,16 @@ ul.numbersList span{
 .testimonial p {
     line-height: 34px;
     margin-top: 20px;
+}
+
+.fa {
+   /* display: inline-block;*/
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 60px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
 }
 
 #testimonials .block-heading h1
