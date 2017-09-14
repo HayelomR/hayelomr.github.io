@@ -768,6 +768,8 @@ i.fa.fa-envelope-o {
 		@media only screen and (max-width : 375px) {
 
 			.tagline {
+				font-size: 27px;
+				margin-top: -10px;
 				font-family: Raleway, Arial, sans-serif,'Niconne', cursive;  
 			}
 			.pro-name {
