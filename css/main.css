@@ -769,12 +769,12 @@ i.fa.fa-envelope-o {
 
 			.tagline {
 				font-size: 27px;
-				margin-top: -10px;
+				/*margin-top: -10px;*/
 				font-family: Raleway, Arial, sans-serif,'Niconne', cursive;  
 			}
 			.pro-name {
 				font-size: 30px;
-				margin-top: -150px;
+				margin-top: -10px;
 				font-family: Raleway, Arial, sans-serif,'Niconne', cursive; 
 			}
 			#testimonials .testimonial > img {
