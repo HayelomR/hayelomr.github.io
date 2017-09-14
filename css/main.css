@@ -503,7 +503,9 @@ ul.numbersList span{
 /* ///////////////////////////////////////////////////////////////////// 
 //  09 - Contact
 /////////////////////////////////////////////////////////////////////*/
-
+#my-skills {
+	margin-top: 50px;
+}
 #contact {
 	background: url(../img/bg/contact-bg.jpg) no-repeat center center fixed;
 	background-size: cover;
