@@ -768,11 +768,11 @@ i.fa.fa-envelope-o {
 		@media only screen and (max-width : 375px) {
 
 			.tagline {
-				font-family: 'Niconne', cursive,sans-serif; ; 
+				font-family: Raleway, Arial, sans-serif,'Niconne', cursive;  
 			}
 			.pro-name {
 				font-size: 40px;
-				font-family: 'Niconne', cursive,sans-serif;; 
+				font-family: Raleway, Arial, sans-serif,'Niconne', cursive; 
 			}
 			#testimonials .testimonial > img {
 
@@ -780,7 +780,7 @@ i.fa.fa-envelope-o {
 			}
 			#testimonials .block-heading h1 {
 
-				font-family: 'Niconne', cursive,sans-serif;; 
+				font-family: Raleway, Arial, sans-serif,'Niconne', cursive; 
 				font-size: 50px;
 
 			}
@@ -789,7 +789,7 @@ i.fa.fa-envelope-o {
 				color: rgb(0, 129, 129);
 				font-weight: 400;
 				font-size: 25;
-				font-family: 'Niconne', cursive,sans-serif;; 
+				font-family: Raleway, Arial, sans-serif,'Niconne', cursive; 
 			}
 			ul.numbersList {
 				background-color: black;
