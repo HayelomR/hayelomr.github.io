@@ -773,7 +773,8 @@ i.fa.fa-envelope-o {
 				font-family: Raleway, Arial, sans-serif,'Niconne', cursive;  
 			}
 			.pro-name {
-				font-size: 40px;
+				font-size: 30px;
+				margin-top: -150px;
 				font-family: Raleway, Arial, sans-serif,'Niconne', cursive; 
 			}
 			#testimonials .testimonial > img {
